@@ -1,14 +1,14 @@
 <template>
     <h1 class="orbitron">Our Team</h1>
-    <div class="d-flex flex-wrap justify-content-evenly">
-        <div class="profile" v-for="person in committee" :key="person.name">
+    <div class="row justify-content-center">
+        <div class="profile col-md" v-for="person in committee" :key="person.name">
             <img :src="'/' + person.image" :alt="person.name">
             <p class="nametag nunito">{{person.name}}</p>
             <p class="title nunito">{{person.title}}</p>
         </div>
     </div>
-    <div class="d-flex flex-wrap justify-content-evenly">
-        <div class="profile" v-for="person in non_committee" :key="person.name">
+    <div class="row justify-content-center">
+        <div class="profile col-md" v-for="person in non_committee" :key="person.name">
             <img :src="'/' + person.image" :alt="person.name">
             <p class="nametag nunito">{{person.name}}</p>
         </div>
@@ -32,8 +32,6 @@ export default {
 <style scoped>
 .profile{
     /* border: 1px black solid; */
-    margin-left: 20px;
-    margin-right: 20px;
 }
 img {
     max-height: 300px;

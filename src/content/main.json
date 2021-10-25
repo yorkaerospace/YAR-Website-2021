@@ -26,18 +26,18 @@
     "Sponsors": [
         {
             "name": "JLCPCB",
-            "logo": "logo.png",
+            "logo": "jlcpcb.webp",
             "link": "https://jlcpcb.com/"
         },{
             "name": "Rapita Systems",
-            "logo": "logo.png",
+            "logo": "Rapita.webp",
             "link": "https://www.rapitasystems.com/"
         },{
             "name": "University of York Electronic Engineering Department",
-            "logo": "logo.png"
+            "logo": "uoyee.webp"
         },{
             "name": "University of York Computer Science Department",
-            "logo": "logo.png"
+            "logo": "uoycs.webp"
         }
     ],
     "Contact Us": [
