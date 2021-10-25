@@ -1,0 +1,49 @@
+{
+    "About Us": [
+        "We are a team of aerospace enthusiasts who founded YAR in October of 2019. Our main aim is to compete in the Spaceport America Cup, representing the University of York. The SAC is the world's largest intercollegiate rocketry competition held annually in New Mexico. After our successful application to compete in the SAC competition in 2021, we will be amongst the first UK based teams to participate.",
+        "Through the establishment of our group we have begun to create, what we hope will be, a strong presence on social media. We have set up webpages, blogs, Facebook groups and Instagram accounts, all in the aim to broaden the scale of our engagement with other people who are interested in STEM and rocketry design. The objective of our social media presence is all about inspiring the future generations of rocketry development, and to show people there is a future in rocketry design and competition.",
+        "As a student-led group, we place emphasis on growing our members' skills in all areas of aerospace engineering. We do this by running workshops and taking part in industry events. We have also partnered with a local engineering firm with whom we are promoting graduate placements in the engineering and aerospace fields. By putting local businesses in contact with students, we are providing a direct opportunity for employment. The ultimate aim of all of our ongoing outreach programmes, is to open students eyes to the possibility of a future career in STEM, and to equip them with the skills that are required to stand out in a competitive and already talented industry."
+    ],
+    "Meet the Team": [
+        {
+            "name":  "Chairy McChair-Face",
+            "image": "logo.png",
+            "title": "Chair-person"
+        },{
+            "name":  "John Smith",
+            "image": "logo.png"
+        },{
+            "name":  "John Smith",
+            "image": "logo.png"
+        },{
+            "name":  "John Smith",
+            "image": "logo.png"
+        },{
+            "name":  "John Smith",
+            "image": "logo.png"
+        }
+    ],
+    "Sponsors": [
+        {
+            "name": "JLCPCB",
+            "logo": "logo.png",
+            "link": "https://jlcpcb.com/"
+        },{
+            "name": "Rapita Systems",
+            "logo": "logo.png",
+            "link": "https://www.rapitasystems.com/"
+        },{
+            "name": "University of York Electronic Engineering Department",
+            "logo": "logo.png"
+        },{
+            "name": "University of York Computer Science Department",
+            "logo": "logo.png"
+        }
+    ],
+    "Contact Us": [
+        {"link": "mailto:yar@yusu.org",                      "icon": "envelope"},
+        {"link": "https://www.facebook.com/YorkAerospace/",  "icon": "facebook"},
+        {"link": "https://twitter.com/YorkAerospace",        "icon": "twitter"},
+        {"link": "https://www.instagram.com/yorkaerospace/", "icon": "instagram"}
+    ]
+}
