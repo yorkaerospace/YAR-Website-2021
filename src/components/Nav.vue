@@ -1,8 +1,6 @@
 <template>
   <div class="navbar">
-
     <header class="d-flex flex-wrap justify-content-around px-3">
-
       <!-- YAR logo and title -->
       <a href="/" class="d-flex align-items-end text-decoration-none">
         <!-- <img src="../assets/YAR_Logo_simple.png" alt="YAR Logo" class="me-2" style="height: 4rem; width:4rem;"> -->
@@ -11,13 +9,20 @@
 
       <!-- Nav links (auto-generated) -->
       <ul class="nav align-items-end">
-        <li class="nav-item fs-3" v-for="(section, index) in sections" :key="index">
-          <a :href="'#' + section.anchor" class="nav-link active" aria-current="page">{{section.title}}</a>
+        <li
+          class="nav-item fs-3"
+          v-for="(section, index) in sections"
+          :key="index"
+        >
+          <a
+            :href="'#' + section.anchor"
+            class="nav-link active"
+            aria-current="page"
+            >{{ section.title }}</a
+          >
         </li>
       </ul>
-
     </header>
-
   </div>
 </template>
 
@@ -25,7 +30,7 @@
 // import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  name: 'Nav',
+  name: "Nav",
   props: ["content"],
   components: {
     // HelloWorld
@@ -35,28 +40,34 @@ export default {
       sections: [
         {
           title: "About Us",
-          anchor: "About"
-        },{
+          anchor: "About",
+        },
+        {
           title: "Meet the Team",
-          anchor: "Meet"
-        },{
+          anchor: "Meet",
+        },
+        {
           title: "Sponsors",
-          anchor: "Sponsors"
-        },{
+          anchor: "Sponsors",
+        },
+        {
           title: "Contact us",
-          anchor: "Contact"
-        }
-      ]
-    }
-  }
-}
+          anchor: "Contact",
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style scoped>
-.nav-link, .nav-link:visited, span{
+.nav-link,
+.nav-link:visited,
+span {
   color: var(--accent-text);
 }
-.nav-link:hover,  .nav-link:active{
+.nav-link:hover,
+.nav-link:active {
   color: var(--link-hover);
 }
 .navbar {
@@ -72,7 +83,7 @@ li {
 }
 
 li:hover {
-  border-top: solid white 2px;
+  border-top: solid var(--accent-text) 2px;
   border-radius: 10px;
 }
 </style>

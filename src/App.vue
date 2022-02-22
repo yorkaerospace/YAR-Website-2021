@@ -1,16 +1,18 @@
 <template>
-  <Nav :content="content"/>
-  
-  <div class="container" style="min-height:100vh">
-    <img id="banner" src="/YAR_Logo_simple.png" alt="">
+  <Nav :content="content" />
+
+  <div class="container" style="min-height: 100vh">
     <div id="About" class="spacer"></div>
-    <AboutUs :text="content['About Us']"/>
+    <AboutUs :text="content['About Us']" />
     <div id="Meet" class="spacer"></div>
-    <MeetTheTeam :members="content['Meet the Team']"/>
+    <MeetTheTeam
+      :members="content['Meet the Team']"
+      :default_profile="content['default_profile']"
+    />
     <div id="Sponsors" class="spacer"></div>
-    <Sponsors :sponsors="content['Sponsors']"/>
+    <Sponsors :sponsors="content['Sponsors']" />
     <div id="Contact" class="spacer"></div>
-    <Contact :links="content['Contact Us']"/>
+    <Contact :links="content['Contact Us']" />
     <div class="spacer"></div>
   </div>
 
@@ -20,39 +22,49 @@
 </template>
 
 <script>
-import Nav from './components/Nav.vue'
-import AboutUs from './components/AboutUs.vue'
-import MeetTheTeam from './components/MeetTheTeam.vue'
-import Sponsors from './components/Sponsors.vue'
-import Contact from './components/Contact.vue'
+import Nav from "./components/Nav.vue";
+import AboutUs from "./components/AboutUs.vue";
+import MeetTheTeam from "./components/MeetTheTeam.vue";
+import Sponsors from "./components/Sponsors.vue";
+import Contact from "./components/Contact.vue";
 
-import Content from './content/main.json'
+import Content from "./content/main.json";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Nav,
     AboutUs,
     MeetTheTeam,
     Sponsors,
-    Contact
+    Contact,
   },
   data() {
     return {
-      content: Content
-    }
-  }
-}
+      content: Content,
+    };
+  },
+};
 </script>
 
 <style>
 /* Site theme colours */
-:root {
+
+/* Light theme */
+/* :root {
   --main-bg: #f3f3f3;
   --accent: #170851;
   --main-text: black;
   --accent-text: white;
   --link-hover: gray;
+} */
+/* Dark Theme */
+:root {
+  --main-bg: #1b1b1b;
+  --accent: #7f0000;
+  --main-text: white;
+  --accent-text: white;
+  --link-hover: var(--accent-text);
 }
 
 /* Font for the title on the navbar */
@@ -80,7 +92,7 @@ export default {
   background-color: var(--main-bg);
 }
 
-.spacer{
+.spacer {
   height: 4rem;
 }
 
@@ -93,5 +105,9 @@ export default {
   color: var(--accent-text);
   text-align: right;
   padding: 1rem;
+}
+
+h1 {
+  font-size: 3em;
 }
 </style>
