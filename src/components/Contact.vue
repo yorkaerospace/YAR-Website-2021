@@ -4,7 +4,7 @@
     class="d-flex flex-wrap justify-content-evenly"
     style="max-width: 1000px; margin: auto"
   >
-    <a v-for="link in links" :key="link.name" :href="link.link">
+    <a v-for="link in links" :key="link.name" :href="link.link" target="_blank">
       <i class="icon" :class="'bi-' + link.icon"></i>
     </a>
   </div>
