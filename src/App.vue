@@ -17,7 +17,7 @@
   </div>
 
   <div class="" id="footer">
-    Site Design / Logo © 2021 York Aerospace and Rocketry
+    Site Design / Logo © 2022 York Aerospace and Rocketry
   </div>
 </template>
 
