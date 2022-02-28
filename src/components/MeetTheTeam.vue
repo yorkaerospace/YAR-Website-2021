@@ -41,9 +41,6 @@ export default {
 </script>
 
 <style scoped>
-.profile {
-  /* border: 1px black solid; */
-}
 img {
   max-height: 300px;
   max-width: 300px;
