@@ -16,7 +16,8 @@
         },
         {
             "name": "Archie Milan",
-            "title": "Treasurer"
+            "title": "Treasurer",
+            "image": "member_images/archie.jpg"
         },
         {
             "name": "Danny Roberts",
@@ -39,6 +40,11 @@
             "name": "Jimbo Leyland",
             "image": "member_images/jimbo.jpeg",
             "title": "Avionics"
+        },
+        {
+            "name": "Asim Poptani",
+            "title": "Avionics",
+            "image": "member_images/asim.jpg"
         }
     ],
     "Sponsors": [
