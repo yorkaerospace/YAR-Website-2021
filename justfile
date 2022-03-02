@@ -2,7 +2,7 @@ lastcommit := `git log -1 --pretty='%s'`
 
 build-site:
     rm -rf deploy
-    git clone git@github.com:yorkaerospace/YAR-Temp-Site.git deploy
+    git clone git@github.com:yorkaerospace/YAR-Site-gpages.git deploy
     npm run build
     cp deploy/CNAME dist/CNAME
     cd deploy && git rm -r *
