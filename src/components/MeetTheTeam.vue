@@ -1,7 +1,7 @@
 <template>
   <h1 class="orbitron">Our Team</h1>
   <div class="row justify-content-center">
-    <div class="profile col-md" v-for="person in committee" :key="person.name">
+    <div class="profile col-sm" v-for="person in members" :key="person.name">
       <img
         :src="person.image ? '/' + person.image : default_image"
         :alt="person.name"
@@ -9,19 +9,6 @@
       />
       <p class="nametag nunito">{{ person.name }}</p>
       <p class="title nunito">{{ person.title }}</p>
-    </div>
-  </div>
-  <div class="row justify-content-center">
-    <div
-      class="profile col-md"
-      v-for="person in non_committee"
-      :key="person.name"
-    >
-      <img
-        :src="person.image ? '/' + person.image : default_image"
-        :alt="person.name"
-      />
-      <p class="nametag nunito">{{ person.name }}</p>
     </div>
   </div>
 </template>
@@ -32,8 +19,7 @@ export default {
   props: ["members", "default_profile"],
   data() {
     return {
-      committee: this.members.filter((x) => x.title !== undefined),
-      non_committee: this.members.filter((x) => x.title === undefined),
+      // members: this.members,
       default_image: this.default_profile,
     };
   },

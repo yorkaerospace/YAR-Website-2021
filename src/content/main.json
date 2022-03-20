@@ -7,6 +7,7 @@
     "Meet the Team": [
         {
             "name": "Rebecca Wardle",
+            "image": "member_images/becca.jpg",
             "title": "Chair"
         },
         {
@@ -15,14 +16,9 @@
             "title": "Secretary"
         },
         {
-            "name": "Archie Milan",
-            "title": "Treasurer",
-            "image": "member_images/archie.jpg"
-        },
-        {
             "name": "Danny Roberts",
             "image": "member_images/danny.jpg",
-            "title": "Logistics Officer"
+            "title": "Treasurer"
         },
         {
             "name": "Will Hinton",
@@ -45,6 +41,10 @@
             "name": "Asim Poptani",
             "title": "Avionics",
             "image": "member_images/asim.jpg"
+        },
+        {
+            "name": "Archie Milan",
+            "image": "member_images/archie.jpg"
         }
     ],
     "Sponsors": [
