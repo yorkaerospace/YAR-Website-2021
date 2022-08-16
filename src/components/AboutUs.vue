@@ -31,7 +31,7 @@ export default {
 <style scoped>
 p {
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-family: Nunito;
 }
 
