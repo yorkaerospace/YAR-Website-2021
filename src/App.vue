@@ -5,10 +5,7 @@
     <div id="About" class="spacer"></div>
     <AboutUs :text="content['About Us']" />
     <div id="Meet" class="spacer"></div>
-    <MeetTheTeam
-      :members="content['Meet the Team']"
-      :default_profile="content['default_profile']"
-    />
+    <MeetTheTeam :members="content['Meet the Team']" :default_profile="content['default_profile']" />
     <div id="Sponsors" class="spacer"></div>
     <Sponsors :sponsors="content['Sponsors']" />
     <div id="Contact" class="spacer"></div>
@@ -72,6 +69,7 @@ export default {
   font-family: "Orbitron";
   src: local("Orbitron"), url(./assets/orbitron-light.ttf) format("truetype");
 }
+
 .orbitron {
   font-family: Orbitron;
   font-style: italic;
@@ -81,6 +79,7 @@ export default {
   font-family: "Nunito";
   src: local("Nunito"), url(./assets/Nunito-Regular.ttf) format("truetype");
 }
+
 .nunito {
   font-family: Nunito;
 }

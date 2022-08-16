@@ -9,17 +9,8 @@
 
       <!-- Nav links (auto-generated) -->
       <ul class="nav align-items-end">
-        <li
-          class="nav-item fs-3"
-          v-for="(section, index) in sections"
-          :key="index"
-        >
-          <a
-            :href="'#' + section.anchor"
-            class="nav-link active"
-            aria-current="page"
-            >{{ section.title }}</a
-          >
+        <li class="nav-item fs-3" v-for="(section, index) in sections" :key="index">
+          <a :href="'#' + section.anchor" class="nav-link active nunito" aria-current="page">{{ section.title }}</a>
         </li>
       </ul>
     </header>
@@ -66,17 +57,21 @@ export default {
 span {
   color: var(--accent-text);
 }
+
 .nav-link:hover,
 .nav-link:active {
   color: var(--link-hover);
 }
+
 .navbar {
   background-color: var(--accent);
   margin-bottom: 10px;
 }
+
 header {
   width: 100%;
 }
+
 li {
   border-top: solid transparent 2px;
   border-radius: 10px;
