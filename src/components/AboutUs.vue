@@ -4,7 +4,7 @@
       <img id="banner" src="/YAR Logo Light.png" alt="YAR logo" />
       <br />
       <button type="button" class="btn btn-light orbitron"
-        onclick="window.open('https://yusu.org/activities/view/aerospace-and-rocketry','_blank');">
+        @click="window.open('https://yusu.org/activities/view/aerospace-and-rocketry','_blank');">
         Join Now!
         <img src="/YUSU_logo.webp" alt="YUSU logo" />
       </button>

@@ -2,7 +2,7 @@
     <h1 class="orbitron">Sponsors</h1>
     <div class="row justify-content-center">
         <div class="profile col-md" :class="{ isLink: org.link !== undefined }" :title="org.name" v-for="org in sponsors"
-            :key="org.name" @click="() => opn(org.link)">
+            :key="org.name" @click="() => {if (org.link) opn(org.link) }">
             <div class="imgbox">
                 <img :src="'/' + org.logo" :alt="org.name">
             </div>
