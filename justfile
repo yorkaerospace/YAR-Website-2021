@@ -8,7 +8,7 @@ build-site:
     cd deploy && git rm -r *
     cp -r dist/* deploy/
     cd deploy && git add --all && git commit -m "{{lastcommit}}"
-    echo "Built and committed the site to '{{lastcommit}}'\nMake sure you test it before pushing!\n"
+    @echo "Built and committed the site to '{{lastcommit}}'\nMake sure you test it before pushing!\n"
 
 test-site: build-site
     http-server deploy
