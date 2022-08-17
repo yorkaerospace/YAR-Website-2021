@@ -15,7 +15,6 @@
       </ul>
     </header>
   </div>
-  <div class="spacer"></div>
 </template>
 
 <script>
@@ -84,10 +83,5 @@ li {
 li:hover {
   border-top: solid var(--accent-text) 2px;
   border-radius: 10px;
-}
-
-.spacer{
-  width: 100%;
-  height: 
 }
 </style>
