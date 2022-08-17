@@ -15,6 +15,7 @@
       </ul>
     </header>
   </div>
+  <div class="spacer"></div>
 </template>
 
 <script>
