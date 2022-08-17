@@ -60,7 +60,7 @@ export default {
   --main-bg: #1b1b1b;
   --accent: #7f0000;
   --main-text: white;
-  --accent-text: white;
+  --accent-text: #ccc;
   --link-hover: var(--accent-text);
 }
 

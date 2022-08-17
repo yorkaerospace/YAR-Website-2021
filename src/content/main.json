@@ -38,11 +38,6 @@
             "title": "Avionics"
         },
         {
-            "name": "Asim Poptani",
-            "title": "Avionics",
-            "image": "member_images/asim.jpg"
-        },
-        {
             "name": "Archie Milan",
             "image": "member_images/archie.jpg"
         }
@@ -51,25 +46,31 @@
         {
             "name": "JLCPCB",
             "logo": "jlcpcb.webp",
-            "link": "https://jlcpcb.com/"
+            "link": "https://jlcpcb.com/",
+            "tier": 1
         },
         {
             "name": "Rapita Systems",
-            "logo": "Rapita.webp",
-            "link": "https://www.rapitasystems.com/"
+            "logo": "rapita.png",
+            "link": "https://www.rapitasystems.com/",
+            "tier": 2
         },
         {
             "name": "RS Components",
             "logo": "RS.png",
-            "link": "https://uk.rs-online.com/web/generalDisplay.html?id=Grass-Roots"
+            "link": "https://uk.rs-online.com/",
+            "tier": 2,
+            "text": "y'all are big fuckin nerds"
         },
         {
             "name": "University of York Electronic Engineering Department",
-            "logo": "uoyee.webp"
+            "logo": "uoyee.webp",
+            "tier": 1
         },
         {
             "name": "University of York Computer Science Department",
-            "logo": "uoycs.webp"
+            "logo": "uoycs.webp",
+            "tier": 1
         }
     ],
     "Contact Us": [
