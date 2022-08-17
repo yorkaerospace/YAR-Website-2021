@@ -15,6 +15,7 @@
       </ul>
     </header>
   </div>
+  <div class="spacer"></div>
 </template>
 
 <script>
@@ -66,6 +67,9 @@ span {
 .navbar {
   background-color: var(--accent);
   margin-bottom: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 
 header {
@@ -80,5 +84,10 @@ li {
 li:hover {
   border-top: solid var(--accent-text) 2px;
   border-radius: 10px;
+}
+
+.spacer{
+  width: 100%;
+  height: 
 }
 </style>
