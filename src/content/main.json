@@ -1,45 +1,21 @@
 {
     "About Us": [
-        "We are a team of aerospace enthusiasts who founded YAR in October of 2019. Our main goals are to provide a stepping stone into the aerospace industry for our members; and to continue competing in national, and eventually international competitions, following our debut at Mach-22 in June. Right now our sights are set on gathering funding and support to compete again in 2023.",
+        "We are a team of aerospace enthusiasts who founded YAR in October of 2019. Our main goals are to provide a stepping stone into the aerospace industry for our members; and to continue competing in national, and eventually international competitions, following our debut at Mach-22.",
         "As a student-led group, we place emphasis on growing our members' skills in all areas of aerospace engineering. We do this by running workshops and taking part in industry events. We have also partnered with several engineering firms with whom we are promoting graduate placements in the engineering and aerospace fields. The ultimate aim of all of our ongoing outreach programmes is to open students eyes to the possibility of a future career in STEM, and to equip them with the skills they need to stand out in a competitive and already talented industry."
     ],
     "Meet the Team": [
         {
-            "name": "Rebecca Wardle",
-            "image": "member_images/becca.jpg",
-            "title": "Chair"
-        },
-        {
-            "name": "Laura Demkowicz-Duffy",
-            "image": "member_images/laura.png",
-            "title": "Secretary"
-        },
-        {
-            "name": "Danny Roberts",
-            "image": "member_images/danny.jpg",
-            "title": "Treasurer"
-        },
-        {
             "name": "Claire Hinton",
-            "title": "Risk Management Officer"
+            "title": "President, Risk Management Officer"
         },
         {
             "name": "Tom Fielden",
-            "title": "Social Sec",
+            "title": "Treasurer",
             "image": "member_images/tom.jpg"
         },
         {
-            "name": "Abir Rizwanullah",
-            "title": "Press & Publicity Officer"
-        },
-        {
-            "name": "Jimbo Leyland",
-            "image": "member_images/jimbo.jpeg",
-            "title": "Avionics"
-        },
-        {
-            "name": "Archie Milan",
-            "image": "member_images/archie.jpg"
+            "name": "Dev Kapur",
+            "title": "Secretary"
         }
     ],
     "Sponsors": [
@@ -50,22 +26,10 @@
             "tier": 1
         },
         {
-            "name": "Rapita Systems",
-            "logo": "rapita.png",
-            "link": "https://www.rapitasystems.com/",
-            "tier": 2
-        },
-        {
             "name": "RS Components",
             "logo": "RS.png",
             "link": "https://uk.rs-online.com/",
-            "tier": 2,
-            "text": "y'all are big fuckin nerds"
-        },
-        {
-            "name": "University of York Electronic Engineering Department",
-            "logo": "uoyee.webp",
-            "tier": 1
+            "tier": 2
         },
         {
             "name": "University of York Computer Science Department",
@@ -75,7 +39,7 @@
     ],
     "Contact Us": [
         {
-            "link": "mailto:yar@yusu.org",
+            "link": "mailto:yar@yorksu.org",
             "icon": "envelope"
         },
         {
